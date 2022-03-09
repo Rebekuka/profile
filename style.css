@@ -1,0 +1,179 @@
+body {
+  /* background-color: rgb(150, 186, 211); */
+  background-image: url("https://s1.best-wallpaper.net/wallpaper/m/1306/Spring-pink-cherry-blossoms-twig-close-up_m.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(199, 139, 193);
+  /* font-size: 200%; */
+  /* line-height: 100%; */
+}
+
+h1 {
+  color: rgb(204, 164, 200);
+  font-size: 300%;
+  line-height: 100%;
+
+}
+
+.titre {
+  text-shadow: 0 1px 0px #7d9aa8, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+   width: 550px;
+   height: 150px;
+   padding-top: 5px;
+   padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: blanchedalmond;
+  border-radius: 8px;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+h2 {
+  color: rgb(204, 164, 200);
+  font-size: 150%;
+  line-height: 100%;
+}
+
+h3 {
+  color: rgb(192, 123, 185);
+  font-size: 120%;
+  line-height: 80%;
+  text-align: center;
+  background-color: blanchedalmond;
+  width: 500px;
+  height: 60px;
+  padding-top: 40px;
+  border-radius: 8px;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+img{
+  height: 500px;
+  border-radius: 8px;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.card{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 26px;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: rgb(8, 4, 4);
+  font-size: 150%;
+  line-height: 50%;
+}
+
+ a:hover {
+  color: rgb(223, 217, 223);
+}
+
+
+/* ########## button */
+
+.button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 3px 4px 0px 0px #b48ab5;
+	background:linear-gradient(to bottom, #c42093 5%, #c586cc 100%);
+	background-color:#c42093;
+	border-radius:18px;
+	border:1px solid #bf76af;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ab59aa;
+}
+
+
+
+
+
+/* media queries */
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+h3 {
+  margin-left: 100px;
+}
+
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+
+  .titre {
+    width: 300px
+  }
+
+  img {
+    height: 300px;
+  }
+
+  h1{
+    margin-top: 40px;
+    font-size: 200%;
+  }
+
+  h3 {
+    width: 300px;
+    margin-left: 4px;
+    padding-bottom: 20px;
+  }
+
+  .card{
+    width: 350px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
